@@ -1,17 +1,11 @@
 library(tidyverse)
 
-AK_methods = read.csv("raw-data/WestDAAT/AK/Methods.csv")
-AK_organizations = read.csv("raw-data/WestDAAT/AK/Organizations.csv")
-AK_relationships = read.csv("raw-data/WestDAAT/AK/PodSiteToPouSiteRelationships.csv") # error
-AK_sites = read.csv("raw-data/WestDAAT/AK/Sites.csv")
-AK_variables = read.csv("raw-data/WestDAAT/AK/Variables.csv")
-AK_allocations = read.csv("raw-data/WestDAAT/AK/WaterAllocations.csv")
-AK_sources = read.csv("raw-data/WestDAAT/AK/WaterSources.csv")
-
-AK_methods = read.csv("raw-data/WestDAAT/AK/Methods.csv")
-AK_organizations = read.csv("raw-data/WestDAAT/AK/Organizations.csv")
-AK_relationships = read.csv("raw-data/WestDAAT/AK/PodSiteToPouSiteRelationships.csv") # error
-AK_sites = read.csv("raw-data/WestDAAT/AK/Sites.csv")
-AK_variables = read.csv("raw-data/WestDAAT/AK/Variables.csv")
-AK_allocations = read.csv("raw-data/WestDAAT/AK/WaterAllocations.csv")
-AK_sources = read.csv("raw-data/WestDAAT/AK/WaterSources.csv")
+AZ_methods = read_csv("data/raw-data/WestDAAT/AZ/methods.csv")
+AZ_organizations = read_csv("data/raw-data/WestDAAT/AZ/organizations.csv")
+AZ_sites_missing = read_csv("data/raw-data/WestDAAT/AZ/sites_missing.csv")
+AZ_sites = read_csv("data/raw-data/WestDAAT/AZ/sites.csv")
+AZ_variables = read_csv("data/raw-data/WestDAAT/AZ/variables.csv")
+AZ_allocations_missing = read_csv("data/raw-data/WestDAAT/AZ/waterallocations_missing.csv")
+AZ_allocations = read_csv("data/raw-data/WestDAAT/AZ/waterallocations.csv")
+AZ_sources_missing = read_csv("data/raw-data/WestDAAT/AZ/watersources_missing.csv")
+AZ_sources = read_csv("data/raw-data/WestDAAT/AZ/watersources.csv")
