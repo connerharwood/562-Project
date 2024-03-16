@@ -1,4 +1,4 @@
-library(dplyr)
+library(tidyverse)
 
 AK_methods = read.csv("raw-data/WestDAAT/AK/Methods.csv")
 AK_organizations = read.csv("raw-data/WestDAAT/AK/Organizations.csv")
